@@ -5,7 +5,7 @@ variable "namespace" {
 }
 
 variable "principal_arns" {
-  description = "A lis of principal arns allowed to assume the IAM role"
+  description = "A list of principal arns allowed to assume the IAM role"
   default     = null
   type        = list(string)
 }
