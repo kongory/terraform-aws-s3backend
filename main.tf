@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-west-2"
+}
+
 data "aws_region" "current" {}
 
 resource "random_string" "rand" {
