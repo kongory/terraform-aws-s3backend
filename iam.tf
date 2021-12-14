@@ -41,7 +41,7 @@ data "aws_iam_policy_document" "policy_doc" {
   statement {
     actions = [
       "dynamodb:GetItem",
-      "dynamodb:PutItems",
+      "dynamodb:PutItem",
       "dynamodb:DeleteItem"
     ]
     resources = [aws_dynamodb_table.dynamodb_table.arn]
